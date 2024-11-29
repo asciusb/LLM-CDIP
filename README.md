@@ -4,14 +4,18 @@ This repository contains the experimental data used for the following paper, whi
 
 Anna Scius-Bertrand, Michael Jungo, Lars Vögtlin, Jean-Marc Spat, and Andreas Fischer, **"Zero-Shot Prompting and Few-Shot Fine-Tuning: Revisiting Document Image Classification Using Large Language Models"**. *Proc. 27th Int. Conf. on Pattern Recognition (ICPR), 2024.*
 
-The original images can be downloaded here:
+The original images can be downloaded here (a subset of 2560 images from the [RVL-CDIP](https://adamharley.com/rvl-cdip/) dataset):
 
-* LLM-CDIP (263 MB, a subset of 2560 images from the [RVL-CDIP](https://adamharley.com/rvl-cdip/) dataset): [LLM-CDIP-images.tgz](https://www.dropbox.com/scl/fi/nf6sgqbhfgbqcx3y5ni9s/LLM-CDIP-images.tgz?rlkey=gwoz4tpsfpfwts9qytkielyrn&dl=1)
+* LLM-CDIP images (263 MB): [LLM-CDIP-images.tgz](https://www.dropbox.com/scl/fi/nf6sgqbhfgbqcx3y5ni9s/LLM-CDIP-images.tgz?rlkey=gwoz4tpsfpfwts9qytkielyrn&dl=1)
+
+The Textract OCR texts can be downloaded here:
+
+* LLM-CDIP OCR (2 MB): [LLM-CDIP-ocr.tgz](https://www.dropbox.com/s/ecokm4n0c36hw7i/LLM-CDIP-ocr.tgz?dl=1)
+
 
 The repository contains:
 
-* Ground truth: The class label is integrated in the filename, e.g.  "test\_0017\_11.png" designates a test image with the class 11. There are 16 classes in the RVL-CDIP database, for more details please visit: <https://adamharley.com/rvl-cdip/>.
-* OCR: The Textract OCR results for the document images.
+* Ground truth: The class label is integrated in the filename, e.g.  "test\_0017\_11.png" designates a test image with the class 11. There are 16 classes in the [RVL-CDIP](https://adamharley.com/rvl-cdip/) database.
 * Splits: The IDs used for training, validation, and testing.
 * Prompts: The system prompts used for OCR-based and image-based document classification. *Please note that in the prompts the classes are between 1 and 16, while the ground truth is between 0 and 15.*
 
