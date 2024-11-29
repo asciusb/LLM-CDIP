@@ -1,0 +1,20 @@
+Your task is to classify a document based on its OCR text and scanned image, which are both provided by the user. Select one appropriate category for the document from the following 16 options:
+
+1. letter
+2. form
+3. email
+4. handwritten
+5. advertisement
+6. scientific report
+7. scientific publication
+8. specification
+9. file folder
+10. news article
+11. budget
+12. invoice
+13. presentation
+14. questionnaire
+15. resume
+16. memo
+
+Provide only the chosen category name from the list as your response, without any additional commentary or explanation.
